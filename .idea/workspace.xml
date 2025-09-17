@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="911f9606-c15e-462c-a741-6f14992cdbda" name="更改" comment="第一次提交">
+      <change beforePath="$PROJECT_DIR$/NeuMusic/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/.prettierrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/DEVELOPMENT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/public/icon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/App.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/assets/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/assets/css/navigation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/assets/css/player.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/assets/css/variables.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/components/ArtistModal.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/components/Discover.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/components/Home.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/components/Login.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/components/Me.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/components/MessageContainer.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/components/Navigation.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/components/NowPlaying.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/components/Player.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/components/PlaylistModal.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/components/QrLogin.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/components/Search.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/components/SettingsModal.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/services/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/services/music.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/services/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/services/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/stores/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/stores/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/stores/player.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/src/stores/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/start.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NeuMusic/vite.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="32pQHoBayqDy1c1jyMBgujSgYSp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;C:\\Users\\ChuEng\\Desktop\\NeuMusic\\NeuMusic\\node_modules\\prettier&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\WebStorm 2025.2.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-WS-252.25557.126" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="911f9606-c15e-462c-a741-6f14992cdbda" name="更改" comment="" />
+      <created>1758114948899</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758114948899</updated>
+      <workItem from="1758114950455" duration="4697000" />
+      <workItem from="1758119881703" duration="491000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
