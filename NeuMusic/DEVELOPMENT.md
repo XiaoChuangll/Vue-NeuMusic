@@ -16,7 +16,7 @@
 ### 1. 安装依赖
 
 ```bash
-cd vue-neumusic
+cd NeuMusic
 npm install
 ```
 
@@ -45,7 +45,7 @@ npm run preview
 ## 项目结构说明
 
 ```
-vue-neumusic/
+NeuMusic/
 ├── public/                 # 静态资源
 │   └── icon.ico           # 网站图标
 ├── src/
