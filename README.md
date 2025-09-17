@@ -2,7 +2,7 @@
 
 基于 Vue.js 3 的新拟态风格第三方网易云音乐播放器
 
-## ✨ 特性
+## ✨ 特性 
 
 - 🎵 基于 Vue.js 3 + Composition API 开发
 - 🎨 新拟态 (Neumorphism) 设计风格
