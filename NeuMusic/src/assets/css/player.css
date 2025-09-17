@@ -1,0 +1,302 @@
+/* 播放器样式 */
+.player {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: var(--player-height);
+  background: var(--surface-color);
+  box-shadow: 0 -2px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  z-index: 90;
+}
+
+/* 进度条 */
+.progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.progress-bar:hover {
+  height: 6px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.progress-fill {
+  height: 100%;
+  background: var(--primary-color);
+  border-radius: 0 2px 2px 0;
+  transition: width 0.1s ease;
+}
+
+/* 专辑封面 */
+.player-cover {
+  width: 55px;
+  height: 55px;
+  border-radius: 20%;
+  overflow: hidden;
+  box-shadow: var(--neu-shadow);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.player-cover:hover {
+  box-shadow: var(--neu-shadow-hover);
+  transform: translateY(-2px);
+}
+
+.cover-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cover-placeholder {
+  width: 100%;
+  height: 100%;
+  background: var(--shadow-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  font-size: 1.5em;
+}
+
+/* 歌曲信息 */
+.player-info {
+  flex: 1;
+  margin-left: 20px;
+  min-width: 0;
+}
+
+.song-name {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.song-name:hover {
+  color: var(--primary-color);
+}
+
+.song-artist {
+  font-size: 0.9em;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.artist-name,
+.album-name {
+  cursor: pointer;
+  transition: color 0.2s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.artist-name:hover,
+.album-name:hover {
+  color: var(--primary-color);
+}
+
+/* 播放控制 */
+.player-controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: auto;
+}
+
+.control-button {
+  width: 35px;
+  height: 35px;
+  background: var(--surface-color);
+  border-radius: 50%;
+  box-shadow: var(--neu-shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 1em;
+  color: var(--text-color);
+}
+
+.control-button:hover {
+  box-shadow: var(--neu-shadow-hover);
+  transform: translateY(-2px);
+}
+
+.control-button:active {
+  box-shadow: var(--neu-shadow-active);
+  transform: translateY(0);
+}
+
+.control-button.primary {
+  width: 45px;
+  height: 45px;
+  font-size: 1.2em;
+}
+
+.control-button.active {
+  color: var(--primary-color);
+}
+
+/* 循环模式按钮 */
+.loop-button {
+  position: relative;
+}
+
+.loop-icon {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+
+/* 音量控制 */
+.volume-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.volume-button {
+  width: 30px;
+  height: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-secondary);
+  font-size: 1em;
+  transition: color 0.2s ease;
+}
+
+.volume-button:hover {
+  color: var(--primary-color);
+}
+
+.volume-slider {
+  width: 80px;
+  height: 4px;
+  background: var(--shadow-dark);
+  border-radius: 2px;
+  cursor: pointer;
+  position: relative;
+}
+
+.volume-fill {
+  height: 100%;
+  background: var(--primary-color);
+  border-radius: 2px;
+  transition: width 0.1s ease;
+}
+
+/* 时间显示 */
+.time-display {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9em;
+  color: var(--text-secondary);
+  min-width: 100px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .player {
+    height: var(--player-height);
+    padding: 0 10px;
+  }
+  
+  .player-cover {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .player-info {
+    margin-left: 15px;
+  }
+  
+  .song-name {
+    font-size: 1em;
+  }
+  
+  .song-artist {
+    font-size: 0.8em;
+  }
+  
+  .player-controls {
+    gap: 10px;
+  }
+  
+  .control-button {
+    width: 30px;
+    height: 30px;
+    font-size: 0.9em;
+  }
+  
+  .control-button.primary {
+    width: 38px;
+    height: 38px;
+    font-size: 1.1em;
+  }
+  
+  .volume-control {
+    display: none;
+  }
+  
+  .time-display {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .player {
+    height: var(--player-height);
+    padding: 0 8px;
+  }
+  
+  .player-info {
+    max-width: 35%;
+  }
+  
+  .player-controls {
+    gap: 8px;
+  }
+  
+  .control-button {
+    width: 28px;
+    height: 28px;
+    font-size: 0.8em;
+  }
+  
+  .control-button.primary {
+    width: 35px;
+    height: 35px;
+    font-size: 1em;
+  }
+}
+
+/* 在极小屏幕上隐藏循环模式按钮 */
+@media (max-width: 360px) {
+  .loop-button {
+    display: none;
+  }
+}
