@@ -57,7 +57,7 @@ npm run dev
 ## 📁 项目结构
 
 ```
-vue-neumusic/
+NeuMusic/
 ├── public/                 # 静态资源
 ├── src/
 │   ├── components/         # Vue 组件
